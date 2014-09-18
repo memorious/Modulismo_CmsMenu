@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Modulismo_CmsMenu>
-            <version>0.1.0</version>
+            <version>1.0.1</version>
         </Modulismo_CmsMenu>
     </modules>
 	<admin>
@@ -20,20 +20,11 @@
         <layout>
             <updates>
                 <cmsmenu>
-                    <file>cmsmenu.xml</file>
+                    <file>modulismo/cmsmenu.xml</file>
                 </cmsmenu>
             </updates>
         </layout>
     </adminhtml>
-	<frontend>
-        <layout>
-            <updates>
-                <cmsmenu>
-                    <file>cmsmenu.xml</file>
-                </cmsmenu>
-            </updates>
-        </layout>
-    </frontend> 
     <global>
         <models>
             <cmsmenu>
@@ -71,16 +62,6 @@
             </cmsmenu_read>
         </resources>
         <events>
-            <cms_page_prepare_save>
-                <observers>
-                    <cmsmenucms_cms_save_page>
-                        <type>singleton</type>
-                        <class>Modulismo_CmsMenu_Model_Cms_Observer</class>
-                        <method>savePage</method>
-                    </cmsmenucms_cms_save_page>
-                </observers>
-            </cms_page_prepare_save>
-            
             <adminhtml_cms_page_edit_tab_content_prepare_form>
                 <observers>
                     <cmsmenucms_page_edit_tab_content>

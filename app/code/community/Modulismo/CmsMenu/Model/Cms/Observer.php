@@ -7,7 +7,7 @@ class Modulismo_CmsMenu_Model_Cms_Observer
 
         $model = Mage::registry('cms_page');
         $form = $observer->getForm();
-        $fieldset = $form->addFieldset('franjuvis_content_fieldset', array('legend'=>Mage::helper('cmsmenu')->__('Custom'),'class'=>'fieldset-wide'));
+        $fieldset = $form->addFieldset('modulismo_content_fieldset', array('legend'=>Mage::helper('cmsmenu')->__('Custom'),'class'=>'fieldset-wide'));
         
         $include_in_menu_options = Mage::getSingleton('cmsmenu/cms_includeinmenu')->getOptionArray();
         $fieldset->addField('include_in_menu', 'select', array(

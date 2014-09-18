@@ -1,0 +1,4 @@
+app/etc/modules/Modulismo_CmsMenu.xml	app/etc/modules/Modulismo_CmsMenu.xml
+app/code/community/Modulismo/CmsMenu/*	app/code/community/Modulismo/CmsMenu/
+app/design/adminhtml/default/default/layout/modulismo/cmsmenu.xml	app/design/adminhtml/default/default/layout/modulismo/cmsmenu.xml
+skin/adminhtml/default/default/cmsmenu/js/cmsmenu.js	skin/adminhtml/default/default/cmsmenu/js/cmsmenu.js
