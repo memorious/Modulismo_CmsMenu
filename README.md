@@ -1,7 +1,7 @@
 Modulismo_CmsMenu
 =================
 
-Small Magento Module that let's us create a simple cms page hierarchy in community, which doesn't have the EE Cms_Hierarchy module
+Small Magento Module that lets us create a simple cms page hierarchy in community, which doesn't have the EE Cms_Hierarchy module
 Once this module is installed, simply change your theme's "topmenu.html"
 from:
 
@@ -27,3 +27,9 @@ to:
 	        </ol>
 	    </nav>
 	<?php endif ?>
+
+Every CMS page admin section should have a new "Custom" fieldset in the "Content" tab that will let you create the simple heirarchy.
+	See here: http://screencast.com/t/JWTLfp4r
+
+Your navbar should now display the hierarchy you create in the admin.
+	See here: http://screencast.com/t/o5WjEpenR
