@@ -1,0 +1,14 @@
+{
+    "name": "modulismo/Modulismo_CmsMenu",
+    "type": "magento-module",
+    "description": "Small Magento Module that let's us create a simple cms page hierarchy in community, which doesn't have the EE Cms_Hierarchy module",
+    "require": {
+        "magento-hackathon/magento-composer-installer" : "*"
+    },
+    "authors": [
+        {
+            "name": "memorious",
+            "email": "memorious@modulismo.com"
+        }
+    ]
+}
