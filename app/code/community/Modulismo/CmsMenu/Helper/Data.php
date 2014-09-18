@@ -2,7 +2,7 @@
 
 class Modulismo_CmsMenu_Helper_Data extends Mage_Core_Helper_Abstract{
 
-	public function testing(){
+	public function prepareCmsMenu(){
 		$cms_model = Mage::getModel('cms/page');
 		$html = '';
                 $store_id = Mage::helper('core')->getStoreId();
@@ -61,12 +61,3 @@ class Modulismo_CmsMenu_Helper_Data extends Mage_Core_Helper_Abstract{
 		return $html;
 	}
 }
-
-// <li class="level0 nav-1 first parent"><a href="http://dev.fr.com/index.php/body.html" class="level0 has-children">Body</a>
-// 	<ul class="level0">
-// 		<li class="level1"><a class="level1" href="http://dev.fr.com/index.php/body.html">View All Body</a></li>
-// 		<li class="level1 nav-1-1 first"><a href="http://dev.fr.com/index.php/body/one.html" class="level1 ">One</a></li>
-// 		<li class="level1 nav-1-2"><a href="http://dev.fr.com/index.php/body/two.html" class="level1 ">two</a></li>
-// 		<li class="level1 nav-1-3 last"><a href="http://dev.fr.com/index.php/body/three.html" class="level1 ">Three</a></li>
-// 	</ul>
-// </li>
